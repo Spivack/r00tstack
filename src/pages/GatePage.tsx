@@ -17,104 +17,64 @@ const PATCH_NOTES = [
     version: 'v3.8.17',
     current: true,
     notes: [
-      '+ Added graph algorithms module',
-      '+ Fixed recursion crash bug',
-      '~ Improved authentication puzzles',
-    ],
-  },
-  {
-    version: 'v3.8.12',
-    notes: [
-      '+ Added Union-Find, general trees',
-      '- Removed mystery.py v2 (too easy)',
-      '~ Extended filesystem session timeout',
+      '+ Added graph algorithms module (BFS, DFS, Dijkstra, MST)',
+      '~ Made up a bunch of patch notes.',
     ],
   },
   {
     version: 'v3.7.4',
     notes: [
-      '! Hotfix: terminal no longer accepts sudo rm -rf /',
-      '+ Added heap sort, radix sort',
-      '~ Adjusted wrong-password sarcasm level',
-    ],
-  },
-  {
-    version: 'v3.7.0',
-    notes: [
-      '+ Sorting module overhaul (8 algorithms)',
-      '- Removed bubble sort (briefly)',
-      '+ Re-added bubble sort (community feedback)',
+      '+ Heap sort, radix sort',
+      '! Fixed: shell sort complexity listed incorrectly as O(n log n)',
+      '! Spilled: coffee on the ice again...'
     ],
   },
   {
     version: 'v3.5.2',
     notes: [
-      '~ Reduced boot sequence from 47 lines to 12',
-      '+ Added shell sort',
-      '! Fixed: terminal accepted "exit" and crashed',
-    ],
-  },
-  {
-    version: 'v3.2.1',
-    notes: [
-      '! Critical: closed authentication backdoor',
-      '+ Added phase 2 filesystem explorer',
-      '~ Phase 3 now accepts lowercase passwords',
+      '+ Shell sort, Union-Find, general trees',
+      '! Fixed: filesystem phase allowed traversal above root',
     ],
   },
   {
     version: 'v2.9.0',
     notes: [
-      '+ Lists & stacks module complete',
-      '+ Big-O notation topic',
-      '~ Server renamed from spivhack-dev to spivhack-server',
+      '+ Lists & stacks module, Big-O notation topic',
+      '~ Migrated server config from spivhack-dev to spivhack-server',
     ],
   },
   {
     version: 'v2.4.0',
     notes: [
-      '+ Added dynamic programming section',
-      '+ Fibonacci & memoization topic',
-      '~ Login hints now slightly less obvious',
+      '+ Dynamic programming section (fibonacci, knapsack, coin change, LCS)',
     ],
   },
   {
     version: 'v2.0.0',
     notes: [
-      '+ Complete UI rewrite',
-      '- Dropped PHP backend',
-      '~ Authentication now intentionally theatrical',
+      '+ Full UI rewrite, terminal-native interface',
+      '- Dropped Cobol backend, migrated to static deployment',
     ],
   },
   {
     version: 'v1.5.3',
     notes: [
-      '+ Searching module (linear search, binary search)',
-      '~ Improved error messages to be less alarming',
-      '! Fixed: binary search returned wrong index on even-length arrays',
-    ],
-  },
-  {
-    version: 'v1.4.7',
-    notes: [
-      '+ Added tab completion to terminal',
-      '~ Improved error messages',
-      '- Removed 14 unused packages (247 remain)',
+      '+ Searching module',
+      '! Fixed: binary search off-by-one on even-length arrays',
     ],
   },
   {
     version: 'v1.3.1',
     notes: [
-      '+ Sorting module: bubble sort, insertion sort',
-      '~ Phase 1 puzzle difficulty adjusted down (way down)',
-      '- Removed leaderboard (no one was using it)',
+      '+ Sorting module: bubble, insertion, selection sort',
+      '- Removed ineffective leadership',
     ],
   },
   {
     version: 'v1.0.0',
     notes: [
       '+ Initial release',
-      '~ It mostly works',
+      '~ Known issues documented in /var/log/spivhack-server/open_bugs.log',
     ],
   },
 ];
