@@ -22,8 +22,8 @@ export default function Header({ sidebarOpen, onToggleSidebar }: HeaderProps) {
             <Code2 size={18} className="text-green-400" />
           </div>
           <span className="font-pixel text-2xl tracking-wide leading-none">
-            <span className="text-green-100">R00t</span>
-            <span className="text-gradient">Stack</span>
+            <span className="text-green-100">Spiv</span>
+            <span className="text-gradient">Hack</span>
           </span>
         </Link>
         <span className="hidden sm:block text-green-800 text-xs font-mono border-l border-green-900 pl-3">

@@ -63,18 +63,18 @@ import monotonicStack from './topics/lists-and-stacks/monotonic-stack';
 
 export const categories: Category[] = [
   {
-    id: 'lists-and-stacks',
-    title: 'Lists & Stacks',
-    icon: '📋',
-    description: 'Array lists, linked lists, doubly linked lists, and stacks — the core linear data structures.',
-    topics: [listAdt, arrayList, linkedList, doublyLinkedList, stack, linkedStack, monotonicStack],
-  },
-  {
     id: 'complexity',
     title: 'Complexity',
     icon: '📈',
     description: 'Analyze how algorithms scale. Big-O, worst case, and operation costs for common data structures.',
     topics: [bigONotation, pVsNp],
+  },
+  {
+    id: 'lists-and-stacks',
+    title: 'Lists & Stacks',
+    icon: '📋',
+    description: 'Array lists, linked lists, doubly linked lists, and stacks — the core linear data structures.',
+    topics: [listAdt, arrayList, linkedList, doublyLinkedList, stack, linkedStack, monotonicStack],
   },
   {
     id: 'recursion',

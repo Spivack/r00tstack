@@ -44,6 +44,12 @@ export default function HomePage() {
             &gt; START
             <ArrowRight size={14} />
           </Link>
+          <Link
+            to="/"
+            className="flex items-center gap-2 px-5 py-2.5 border border-green-800 text-green-600 hover:text-green-300 hover:border-green-600 font-mono text-sm transition-colors"
+          >
+            &gt; BACK TO CHALLENGE
+          </Link>
           <a
             href="https://github.com/Spivack/r00tstack"
             target="_blank"
