@@ -25,21 +25,21 @@ const PATCH_NOTES = [
     version: 'v3.7.4',
     notes: [
       '+ Heap sort, radix sort',
-      '! Fixed: shell sort complexity listed incorrectly as O(n log n)',
       '! Spilled: coffee on the ice again...'
     ],
   },
   {
     version: 'v3.5.2',
     notes: [
-      '+ Shell sort, Union-Find, general trees',
       '! Fixed: filesystem phase allowed traversal above root',
+      '! Hi, Mom.',
     ],
   },
   {
     version: 'v2.9.0',
     notes: [
       '+ Lists & stacks module, Big-O notation topic',
+      '+ Shell sort, Union-Find, general trees',
       '~ Migrated server config from spivhack-dev to spivhack-server',
     ],
   },
