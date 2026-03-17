@@ -39,15 +39,7 @@ export default function Layout() {
                   className="text-green-800 hover:text-green-500 transition-colors">
                   linkedin
                 </a>
-                <a href="https://spivack.dev" target="_blank" rel="noopener noreferrer"
-                  className="text-green-800 hover:text-green-500 transition-colors">
-                  spivack.dev
-                </a>
-                <a href="https://spivack.io" target="_blank" rel="noopener noreferrer"
-                  className="text-green-800 hover:text-green-500 transition-colors">
-                  spivack.io
-                </a>
-                <a href={`mailto:${EMAIL[0]}@${EMAIL[1]}`}
+<a href={`mailto:${EMAIL[0]}@${EMAIL[1]}`}
                   className="text-green-800 hover:text-green-500 transition-colors">
                   {EMAIL[0]}&#64;{EMAIL[1]}
                 </a>
