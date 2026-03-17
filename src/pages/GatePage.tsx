@@ -32,7 +32,7 @@ const PATCH_NOTES = [
     version: 'v3.5.2',
     notes: [
       '! Fixed: filesystem phase allowed traversal above root',
-      '! Hi, Mom.',
+      '+ Hi, Mom',
     ],
   },
   {
